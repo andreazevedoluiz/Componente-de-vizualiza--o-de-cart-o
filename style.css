@@ -1,0 +1,37 @@
+
+div{
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+p{
+    display: inline-block;
+    text-align: justify;
+}
+
+h1{
+    text-align: justify;
+}
+
+h3{
+    text-align: justify;
+}
+
+body{
+    width: 70%;
+}
+
+#container01{
+border-radius: 8px;
+border-color: black;
+}
+
+#container02{
+    background-color: hsl(30, 38%, 92%);
+    border-radius: 8px;
+}
+
+#imagem1{
+    border-radius: 8px;
+}
