@@ -35,8 +35,8 @@ p{
 .container{
     background-color: aliceblue;
     border-radius: 16px;
-    width: 922px;
-    height: 529px;
+    width: 1150px;
+    height: 900px;
    /* padding: 42px; */
     margin: 0 auto;
     margin-top: 8%;
@@ -44,12 +44,20 @@ p{
 }
 
 .lado_esquerdo{
-
+    float: left;
 }
 
 .lado_direito{
     padding: 42px;
     width: 40%;
+    float: right;
+}
+
+.imagem1{
+    float: left;
+    /*width: 40%;
+    height: 50%;*/
+    border-radius: 12px;
 }
 
 /*
