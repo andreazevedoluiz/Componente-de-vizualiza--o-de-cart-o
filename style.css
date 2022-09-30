@@ -4,12 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
 
 .{
-    padding: 0%;
-    margin: 0%;
+    padding: 1440px;
+    margin: 800px;
 }
 
 body{
     background-color: hsl(30, 38%, 92%);
+    
 }
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
@@ -17,17 +18,35 @@ body{
 h1{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
+    text-align: justify;
+    text-align: center;
 }
 
 h3{
     font-family: 'Titillium Web', sans-serif;
     font-weight: 700;
+    letter-spacing: 3px;
 }
 p{
     font-family: 'Titillium Web', sans-serif;
     font-size: 14px;
     font-weight: 500;
+    text-align: justify;
+    text-align: center;
+    
 
+}
+
+button{
+    background-color: rgb(7, 68, 27);
+    width: 150px;
+    height: 60px;
+    border-radius: 16px;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 130px;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
 }
 
 /* Estilizando as divs */
@@ -35,8 +54,8 @@ p{
 .container{
     background-color: aliceblue;
     border-radius: 16px;
-    width: 1150px;
-    height: 900px;
+    width: 850px;
+    height: 550px;
    /* padding: 42px; */
     margin: 0 auto;
     margin-top: 8%;
@@ -53,55 +72,14 @@ p{
     float: right;
 }
 
-.imagem1{
-    float: left;
-    /*width: 40%;
-    height: 50%;*/
-    border-radius: 12px;
-}
-
-/*
-p{
-    display: inline-block;
-    text-align: justify;
-}
-
-h1{
-    text-align: justify;
-}
-
-h3{
-    text-align: justify;
-}
-
-body{
-    width: 70%;
-}
-
-#container01{
-border-radius: 8px;
-border-color: black;
-float: left;
-padding: 10%;
-width: 10%;
-
-
-}
-
-#container02{
-    background-color: hsl(30, 38%, 92%);
-    border-radius: 8px;
-    float: right;
-    padding: 10%;
-    width: 10%;
-}
+/* Estiliazando a imagem*/
 
 .imagem1{
-    border-radius: 8px;
     float: left;
+    width: 426px;
+    height: 550px;
+    border-radius: 12px 0px 0px 12px;
+  
+   
 }
 
-.atribution{
-    clear: both;
-}
-*/
